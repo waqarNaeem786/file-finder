@@ -3,7 +3,7 @@
 FILE=$(fdfind . ~ --type f | fzf)
 
 if [[ -n "$FILE" ]]; then
-    nvim "$FILE"
+    open "$FILE"
 fi
 
 
